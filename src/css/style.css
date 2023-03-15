@@ -1,0 +1,10 @@
+@import "./reset.css";
+@import "./custom.css";
+@import "./header.css";
+@import "./intro.css";
+@import "./experiencia.css";
+@import "./formacao.css";
+@import "./footer.css";
+
+/* ======== RESPONSIVO ======== */
+@import "./reponsivo.css";

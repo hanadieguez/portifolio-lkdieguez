@@ -1,0 +1,81 @@
+.experiencia {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  margin-top: 7.5rem;
+}
+
+#experiencia {
+  color: var(--gray-3);
+}
+
+.experiencia__descricao {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  width: 35rem;
+}
+
+.experiencia__ul-projetos {
+  margin: 3.75rem 0;
+}
+
+.experiencia__li-projetos {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  background: var(--gray-1);
+  border: 0.0625rem solid var(--gray-2);
+  border-radius: 0.3125rem;
+  padding: 1.25rem 1.25rem 1.875rem;
+  position: relative;
+  
+}
+
+.experiencia__li-projetos:not(:last-child) {
+  margin-bottom: 1.25rem;
+}
+
+.li-projetos__ano {
+  position: absolute;
+  top: 25px;
+  left: -100px;
+}
+
+.li-projetos__nome::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -25px;
+  width: 4px;
+  height: 25px;
+  background: linear-gradient(180deg, #b629f8 0%, #800add 100%);
+}
+
+.li-projetos__nome a:hover {
+  color: #800add;
+}
+
+.li-projetos__nome,
+.li-projetos__cargo {
+  position: relative;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.li-projetos__descricao {
+  font-size: 1.2rem;
+  color: var(--gray-10);
+  width: 28.125rem;
+}
+
+.li-projetos__ul-tecnologias {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.li-tecnologia {
+  padding: 0.3125rem 0.625rem;
+  font-size: 1.2rem;
+  background: #ffffff;
+  border-radius: 5px;
+}

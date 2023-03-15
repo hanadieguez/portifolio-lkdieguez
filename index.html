@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/css/index.min.css">
+
+  <title>Projeto Portfólio</title>
+</head>
+
+<body>
+  <script defer src="./src/js/menu-responsivo.js"></script>
+  <script defer src="./src/js/titulo-responsivo.js"></script>
+
+  <header class="header container">
+    <img src="./src/img/marca.svg" alt="Logo Lobo">
+
+    <nav aria-label="principal" id="nav">
+      <button id="btn-menu">
+        <span id="hamburger-ico"></span>
+      </button>
+
+      <ul class="header__menu">
+        <li><a href="#">Experiência</a></li>
+        <li><a href="#">Formação</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+
+  <!-- ------------------ INTRO ------------------ -->
+  <main class="main container">
+    <img src="./src/img/perfil.jpg" alt="Foto Lobo" class="main__profile-pic">
+
+    <div class="main__intro">
+      <h1>Desenvolvedor <br>Front End</h1>
+      <p>Localizado em Pelotas / RS</p>
+    </div>
+
+  </main>
+
+
+  <!-- ------------------ EXPERIENCIA ------------------ -->
+  <article aria-labelledby="experiencia" class="experiencia container">
+    <h2 id="experiencia" class="subtitulo">EXPE<br>RIÊN<br>CIA</h2>
+    <div>
+      <p class="experiencia__descricao">Desenvolvo pequenos projetos ─ listados abaixo ─ utilizando apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.</p>
+
+      <ul class="experiencia__ul-projetos">
+        <!-- PROJETO CARROSSEL THE LAST OF US -->
+        <li class="experiencia__li-projetos">
+          <span class="li-projetos__ano">2023</span>
+          <div>
+            <span class="li-projetos__nome">
+              <a href="https://lkadieguez.github.io/projeto-the-last-of-us/" target="_blank">
+                Projeto The Last of Us <img src="./src/img/link.svg" alt="Ícone Link" class="icone-link">
+              </a>
+            </span>
+            <p class="li-projetos__descricao">Desenvolvi este pequeno projeto durante um evento criado pelos gêmeos do Dev em Dobro. Sua funcionalidade é alterar a imagem de fundo de acordo com o botão pressionado abaixo.</p>
+          </div>
+          <div>
+            <span class="li-projetos__cargo">Desenvolvedor Júnior</span>
+            <ul class="li-projetos__ul-tecnologias">
+              <li class="li-tecnologia">HTML</li>
+              <li class="li-tecnologia">CSS</li>
+              <li class="li-tecnologia">JavaScript</li>
+            </ul>
+          </div>
+        </li>
+
+        <!-- PROJETO BIKCRAFT -->
+        <li class="experiencia__li-projetos">
+          <span class="li-projetos__ano">2023</span>
+          <div>
+            <span class="li-projetos__nome">
+              Bikcraft
+              <!-- <a href="">
+                <img src="./src/img/link.svg" alt="Ícone Link" class="icone-link">
+              </a> -->
+            </span>
+            <p class="li-projetos__descricao">Estou desenvolvendo este projeto durante o curso oferecido pelo professor André, fundador da Origamid. Neste estou utilizando apenas HTML, CSS e JavaScript.</p>
+          </div>
+          <div>
+            <span class="li-projetos__cargo">Desenvolvedor Júnior</span>
+            <ul class="li-projetos__ul-tecnologias">
+              <li class="li-tecnologia">HTML</li>
+              <li class="li-tecnologia">CSS</li>
+              <li class="li-tecnologia">JavaScript</li>
+            </ul>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </article>
+
+
+  <!-- ------------------ FORMAÇÃO ------------------ -->
+  <div class="formacao-bg">
+    <article aria-labelledby="formacao" class="container formacao">
+      <h2 id="formacao" class="subtitulo">FORM<br>AÇÃO</h2>
+      <div>
+        <p class="formacao__descricao">Minha mais recente experiência acadêmica foi o curso de Análise e Desenvolvimento de Sistemas na faculdade Senac. Além disso estou sempre me mantendo atualizado com cursos intensivos online.</p>
+
+        <!-- LISTA DE CURSOS -->
+        <ul class="formacao__ul-cursos">
+          <li class="ul-cursos__li-curso">
+            <div>
+              <span class="li-curso__tipo">CURSO</span>
+              <div class="li-curso__nome">HTML & CSS</div>
+            </div>
+            <span class="li-curso__instituicao">Origamid</span>
+          </li>
+          <li class="ul-cursos__li-curso">
+            <div>
+              <span class="li-curso__tipo">CURSO</span>
+              <div class="li-curso__nome">JavaScript ES6 Completo</div>
+            </div>
+            <span class="li-curso__instituicao">Origamid</span>
+          </li>
+          <li class="ul-cursos__li-curso">
+            <div>
+              <span class="li-curso__tipo">CURSO</span>
+              <div class="li-curso__nome">React.js</div>
+            </div>
+            <span class="li-curso__instituicao">Origamid</span>
+          </li>
+        </ul>
+
+        <div class="intensivos-grid">
+          <img src="./src/img/book.svg" alt="Ícone Livro">
+
+          <div>
+            <span class="formacao__intensivos">CURSOS INTENSIVOS</span>
+            <!-- LISTA DE CURSOS INTENSIVOS -->
+            <ul class="intensivos__ul-cursos">
+              <li class="intensivos__li-curso">
+                <span class="intensivos__li-curso__nome">HTML e CSS para Iniciantes</span>
+                <span>56h</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="intensivos-grid">
+          <img src="./src/img/translate.svg" alt="Ícone Idiomas">
+          <div>
+            <span class="formacao__intensivos">IDIOMAS</span>
+            <!-- LISTA DE CURSOS DE IDIOMAS -->
+            <ul class="intensivos__ul-cursos ultimo">
+              <li class="intensivos__li-idioma">
+                <div>
+                  <span class="intensivos__li-curso__nome">Inglês</span> &nbsp; / &nbsp; Iniciante
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+
+
+  <!-- ------------------ RODAPÉ ------------------ -->
+  <footer class="bg-footer">
+    <div class="container">
+      <div class="footer">
+        <p class="footer__mensagem">Estou disponível para novos projetos. Entre em contato comigo para trocarmos uma ideia. ☕</p>
+        <ul class="footer__contato">
+          <li>
+            <a href="https://github.com/lkadieguez" class="footer__contato__link">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/luis-henrique-dieguez-01907626a/" class="footer__contato__link">LinkedIn</a>
+          </li>
+          <li>
+            <a href="mailto:lkdieguezofc@gmail.com" class="footer__contato__link">lkdieguezofc@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__creditos">Lobo. Alguns direitos reservados.</div>
+    </div>
+  </footer>
+</body>
+
+</html>

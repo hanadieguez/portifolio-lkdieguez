@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1.875rem 0;
+  align-items: center;
+}
+
+#btn-menu {
+  display: none;
+}
+
+.header__menu {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.header__menu li a {
+  display: flex;
+  padding: 1.25rem 0;
+}

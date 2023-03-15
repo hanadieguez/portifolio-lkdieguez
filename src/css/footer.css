@@ -1,0 +1,46 @@
+.bg-footer::before {
+  content: "";
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/deco.png");
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  left: 140px;
+  top: -65px;
+}
+
+.bg-footer {
+  background: #000000;
+  color: var(--gray-4);
+  position: relative;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.footer__mensagem {
+  font-size: 24px;
+  line-height: 32px;
+  width: 450px;
+}
+
+
+.footer__contato__link {
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.footer__contato {
+  display: grid;
+  gap: 30px;
+}
+
+.footer__creditos {
+  font-size: 1.125rem;
+  padding: 60px 0; 
+}

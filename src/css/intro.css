@@ -1,0 +1,30 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 5rem;
+  align-items: center;
+  gap: 8.75rem;
+}
+
+.main__intro h1::before {
+  content: "";
+  display: block;
+  background-image: url("../img/deco.png");
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  left: -35px;
+  top: -30px;
+  z-index: -1;
+}
+
+.main__intro h1 {
+  font-size: 4.5rem;
+  margin-bottom: 1.875rem;
+  position: relative;
+}
+
+.main__intro p {
+  font-size: 1.5rem;
+}

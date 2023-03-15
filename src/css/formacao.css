@@ -1,0 +1,102 @@
+.formacao-bg {
+  background: var(--gray-13);
+  padding: 6.25rem 0 7.5rem;
+}
+
+.formacao {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  color: var(--gray-6);
+}
+
+#formacao {
+  color: #000000;
+}
+
+.formacao__descricao {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  width: 32.5rem;
+}
+
+.formacao__descricao strong {
+  color: #ffffff;
+}
+
+.formacao__ul-cursos {
+  margin: 3.75rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.625rem;
+}
+
+.ul-cursos__li-curso {
+  display: grid;
+  align-content: space-between;
+  background: #090909;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 20px;
+  width: 10.9375rem;
+}
+
+.li-curso__tipo {
+  font-size: 0.875rem;
+}
+
+.li-curso__nome::before {
+  content: "";
+  width: 4px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  left: -25px;
+  background: linear-gradient(180deg, #b629f8 0%, #800add 100%);
+}
+
+.li-curso__nome {
+  font-size: 1.125rem;
+  margin: 10px 0 50px;
+  color: #ffffff;
+  font-weight: 600;
+  position: relative;
+}
+
+.li-curso__instituicao {
+  font-size: 1.125rem;
+}
+
+.intensivos-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  position: relative;
+}
+
+.intensivos-grid img {
+  position: absolute;
+  left: -35px;
+  top: -3px;
+}
+
+.formacao__intensivos {
+  position: relative;
+  font-size: 0.875rem;
+}
+
+.intensivos__ul-cursos {
+  margin-top: 1.875rem;
+  font-size: 1.125rem;
+}
+
+.intensivos__li-curso {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intensivos__li-curso__nome {
+  color: #ffffff;
+}
+
+.intensivos-grid:not(:last-child) {
+  margin-bottom: 3.75rem;
+}
